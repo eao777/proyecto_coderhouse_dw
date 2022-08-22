@@ -53,7 +53,7 @@ nav ul li a:link, a:visited, a:active{
 }
 
 #sliderPrincipal img{
-    width: 100vw;
+    max-width: 100vw;
 }
 
 /*  ------------------------ MAIN Página INDEX ------------------------------------------------------------------------- */
@@ -94,6 +94,12 @@ main{
     max-width: 33vw;
 }
 
+#envios img:hover{
+    /* transform: scale(1.1,1.1);
+    border: 4px solid rgb(217, 7, 7); */
+    transform: rotate(-5deg);
+}
+
 #cuotas{
     grid-area: cuotas;
 }
@@ -102,12 +108,20 @@ main{
     max-width: 33vw;
 }
 
+#cuotas img:hover{
+    transform: rotate(-5deg);
+}
+
 #cambios{
-    grid-area: cambios  ;
+    grid-area: cambios;
 }
 
 #cambios img{
     max-width: 33vw;
+}
+
+#cambios img:hover{
+    transform: rotate(-5deg);
 }
 
 /*  ------------------------ MAIN Página INDEX - Sección Categorias Destacadas ------------------------------------------------- */
@@ -140,6 +154,10 @@ main{
     max-width: 33vw;
 }
 
+.botas img:hover{
+    transform: scale(1.1,1.1);
+}
+
 .cascos{
     grid-area: cascos;
 }
@@ -148,12 +166,20 @@ main{
     max-width: 33vw;
 }
 
+.cascos img:hover{
+    transform: scale(1.1,1.1);
+}
+
 .guantes{
     grid-area: guantes;
 }
 
 .guantes img{
     max-width: 33vw;
+}
+
+.guantes img:hover{
+    transform: scale(1.1,1.1);
 }
 
 /*  ------------------------ MAIN Página INDEX - Sección Promo Logos de Marcas ------------------------------------------------ */
@@ -176,8 +202,7 @@ main{
     text-align: center;
     color: #fff;
     font-weight: 700;
-    background-image: url("../images/fondoPromo.jpg");
-    background-repeat: no-repeat;
+    background: linear-gradient(red,black);
     padding: 20px;
 }
 
@@ -258,6 +283,10 @@ main{
     font-size: 1.3rem;
 }
 
+.btnComprar:hover{
+    transform: scale(0.8,0.8);
+}
+
 /*  ------------------------ MAIN Página INDEX - Sección Promo Mes de Julio  ------------------------------------------------ */
 
 .promoJulio{
@@ -281,6 +310,7 @@ main{
     max-width: 100vw;
 }
 
+
 /*  ------------------------ MAIN Página INDEX - Sección Ubicación  ------------------------------------------------ */
 
 .ubicacion{
@@ -294,7 +324,7 @@ main{
     grid-template-areas: "tituloUbicacion"
                          "mapa";
     max-width: 100vw;
-    background-color: #2E3159;
+    background: radial-gradient(black,#191659);
     color: #fff;
 }
 
@@ -355,6 +385,7 @@ main{
     text-align: center;
     margin-top: 15px;
     padding: 10px;
+    background: linear-gradient(#191659, black);
 }
 
 /*  ------------------------ MAIN Página INICIAR SESION ----------------------------------------------------------------------- */
