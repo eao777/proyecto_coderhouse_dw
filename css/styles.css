@@ -1,0 +1,204 @@
+/* Reseteo */
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  /*  ------------------------ MAIN Página INDEX ------------------------ */
+  .menu{
+    color: #000;
+    font-size: 2rem;
+  }
+
+  .servicios{
+    padding: 12px;
+  }
+
+  .tituloCategoriasDestacadas{
+    text-align: center;
+    margin: 10px 0 10px 0;
+  }
+
+  .botas:hover{
+    transform: scale(1.1,1.1);
+    margin-left: 35px;
+  }
+
+  .cascos:hover{
+    transform: scale(1.1,1.1);
+  }
+
+  .guantes:hover{
+    transform: scale(1.1,1.1);
+    margin-left: -35px;
+  }
+
+  .marcas{
+    margin-top: 10px;
+  }
+
+  .marcas img{
+    border-radius: 5px;
+  }
+
+  .tituloPromo{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    background: linear-gradient(red,black);
+    padding: 20px;
+}
+
+.tituloProductosMasVendidos{
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.productoMasVendido{
+  margin: 15px;
+  border: 3px outset #b02c2a;
+  width: 450px;
+}
+
+.nombreProducto{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.precioProducto{
+  color:#6b1a19;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-img-top{
+  margin-top: 20px;
+}
+
+.btnComprar, #enviarMensaje{
+    margin: 10px;
+    padding-bottom: 5px;
+    background-color: #2EA67A;
+    color: white;
+    border: 3px outset #2EA67A;
+    width: 100px;
+    font-size: 1.3rem;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.3rem #28a74646;
+}
+
+.btnBuscar{
+  background-color: #2EA67A;
+  color: white;
+  border: 3px outset #2EA67A;
+  font-size: 1rem;
+}
+
+.btnComprar:hover{
+    transform: scale(0.8,0.8);
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.imagenPromoJulio{
+  max-width: 100vw;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+.tituloUbicacion{
+  background: radial-gradient(black,#191659);
+  color: #fff;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.mapa{
+  height: 20vw;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+.colPiePagina ul{
+  padding-left: 0;
+}
+
+.colPiePagina ul li{
+  list-style-type: none;
+}
+
+.enlaces{
+  color: #2E3159;
+  text-decoration: none;
+}
+
+.copyright{
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
+  background: linear-gradient(#191659, black);
+}
+
+/*  Encabezado de Secciones */
+.tituloSeccion{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/*  ------------------------ MAIN Página Sobre Nosotros ------------------------ */
+.valores{
+  margin-top: 30px;
+}
+
+.objetivos{
+  margin: 30px 0 100px 0;
+}
+
+
+/*  ------------------------ Estilos para Vista Mobile ------------------------ */
+
+@media only screen and (max-width: 576px){
+  .botas:hover{
+    transform: scale(0.8,0.8);
+    margin-left: 0;
+  }
+
+  .cascos:hover{
+    transform: scale(0.8,0.8);
+  }
+
+  .guantes:hover{
+    transform: scale(0.8,0.8);
+    margin-left: 0;
+  }
+
+  .mapa{
+    height: 60vw;
+  }
+}
