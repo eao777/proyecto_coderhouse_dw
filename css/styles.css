@@ -94,6 +94,26 @@
     font-size: 1.3rem;
 }
 
+.iniciarSesion{
+  margin: 10px;
+  padding-bottom: 5px;
+  background-color: #2EA67A;
+  color: white;
+  border: 3px outset #2EA67A;
+  width: 200px;
+  font-size: 1.3rem;
+}
+
+.iniciarSesion:hover{
+  background-color: #2EA67A;
+  border: 3px outset #2EA67A;
+  transform: scale(0.8,0.8);
+}
+
+#nuevoRegistro{
+  margin-top: 40px;
+}
+
 .form-control:focus {
   border-color: #28a745;
   box-shadow: 0 0 0 0.3rem #28a74646;
@@ -181,6 +201,32 @@ footer{
 }
 
 
+/*  ------------------------ MAIN Página Cascos ------------------------ */
+.productoCasco{
+  margin: 15px;
+  border: 3px outset #b02c2a;
+  width: 250px;
+}
+
+.filtros{
+  margin: 20px 0 10px 30px;
+}
+
+.talles{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.verMasProductos{
+  margin-top: 10px;
+  padding-bottom: 5px;
+  background-color: #191659;
+  color: white;
+  border: 3px outset #191659;
+  width: 200px;
+  font-size: 1.3rem;
+}
+
 /*  ------------------------ Estilos para Vista Mobile ------------------------ */
 
 @media only screen and (max-width: 576px){
@@ -200,5 +246,10 @@ footer{
 
   .mapa{
     height: 60vw;
+  }
+
+  /* Pagina Cascos -- Ocultar Columna izquierda de Filtros */
+  #filtros{
+    display: none;
   }
 }
