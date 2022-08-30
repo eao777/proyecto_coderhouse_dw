@@ -245,6 +245,10 @@ footer {
   font-size: 1.3rem;
 }
 
+.filtrosMobile{
+  display: none;
+}
+
 /*  ------------------------ Estilos para Vista Mobile ------------------------ */
 
 @media only screen and (max-width: 576px) {
@@ -269,5 +273,9 @@ footer {
   /* Pagina Cascos -- Ocultar Columna izquierda de Filtros */
   #filtros {
     display: none;
+  }
+
+  .filtrosMobile{
+    display: block;
   }
 }
