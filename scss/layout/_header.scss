@@ -1,0 +1,18 @@
+/* Estilos del Menú principal */
+.menu {
+    color: #000;
+    font-size: 2rem;
+  }
+
+/* Borde de color a menu hamburguesa */
+.navbar {
+    --bs-navbar-toggler-border-color: rgb(255 0 0);
+  }
+
+  /* Estilos para botón Buscar */
+  .btnBuscar {
+    background-color: #2EA67A;
+    color: white;
+    border: 3px outset #2EA67A;
+    font-size: 1rem;
+  }
