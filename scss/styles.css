@@ -3,40 +3,49 @@
 /* Estilos del Menú principal */
 .menu {
   color: #000;
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 /* Borde de color a menu hamburguesa */
 .navbar {
-  --bs-navbar-toggler-border-color: red; }
+  --bs-navbar-toggler-border-color: red;
+}
 
 /* Estilos para botón Buscar */
 .btnBuscar {
   background-color: #2EA67A;
   color: white;
   border: 3px outset #2EA67A;
-  font-size: 1rem; }
-  .btnBuscar:hover {
-    transform: scale(0.8, 0.8); }
+  font-size: 1rem;
+}
+.btnBuscar:hover {
+  transform: scale(0.8, 0.8);
+}
 
 footer {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .colPiePagina ul {
-  padding-left: 0; }
+  padding-left: 0;
+}
 
 .colPiePagina ul li {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .enlaces {
   color: #2E3159;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .copyright {
   color: #fff;
   text-align: center;
   margin-top: 15px;
   padding: 10px;
-  background: linear-gradient(#191659, black); }
+  background: linear-gradient(#191659, black);
+}
 
 /* Paleta de Colores */
 /* Reset */
@@ -44,66 +53,81 @@ footer {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Oswald', sans-serif; }
+  font-family: "Oswald", sans-serif;
+}
 
 /*  ------------------------ MAIN Página INDEX ------------------------ */
 .servicios {
-  padding: 12px; }
+  padding: 12px;
+}
 
 .tituloCategoriasDestacadas {
   text-align: center;
-  margin: 10px 0 10px 0; }
+  margin: 10px 0 10px 0;
+}
 
 .botas:hover {
   transform: scale(1.1, 1.1);
-  margin-left: 35px; }
+  margin-left: 35px;
+}
 
 .cascos:hover {
-  transform: scale(1.1, 1.1); }
+  transform: scale(1.1, 1.1);
+}
 
 .guantes:hover {
   transform: scale(1.1, 1.1);
-  margin-left: -35px; }
+  margin-left: -35px;
+}
 
 .marcas {
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 .marcas img {
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .tituloPromo {
   text-align: center;
   color: #fff;
   font-weight: 700;
   background: linear-gradient(#D92525, #000);
-  padding: 20px; }
+  padding: 20px;
+}
 
 .tituloProductosMasVendidos {
   text-align: center;
-  margin: 10px 0 10px 0; }
+  margin: 10px 0 10px 0;
+}
 
 .productoMasVendido {
   margin: 15px;
   border: 3px outset #730202;
-  width: 450px; }
+  width: 450px;
+}
 
 .nombreProducto {
   color: #000;
   font-weight: bold;
   text-align: center;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+}
 
 .precioProducto {
   color: #730202;
   margin: 5px;
   text-align: center;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
 
 .card-body {
-  text-align: center; }
+  text-align: center;
+}
 
 .card-img-top {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .btnComprar,
 #enviarMensaje {
@@ -113,7 +137,8 @@ footer {
   color: white;
   border: 3px outset #2EA67A;
   width: 100px;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+}
 
 .iniciarSesion {
   margin: 10px;
@@ -122,34 +147,53 @@ footer {
   color: white;
   border: 3px outset #2EA67A;
   width: 200px;
-  font-size: 1.3rem; }
-  .iniciarSesion:hover {
-    background-color: #2EA67A;
-    border: 3px outset #2EA67A;
-    transform: scale(0.8, 0.8); }
+  font-size: 1.3rem;
+}
+.iniciarSesion:hover {
+  background-color: #2EA67A;
+  border: 3px outset #2EA67A;
+  transform: scale(0.8, 0.8);
+}
 
 #nuevoRegistro {
-  margin-top: 40px; }
+  margin-top: 40px;
+}
 
 .form-control:focus {
   border-color: #2EA67A;
-  box-shadow: 0 0 0 0.3rem #28A74646; }
+  box-shadow: 0 0 0 0.3rem rgba(40, 167, 70, 0.2745098039);
+}
 
 .btnComprar:hover {
-  transform: scale(0.8, 0.8); }
+  transform: scale(0.8, 0.8);
+}
 
 /* Animacion para promociones */
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes aparecer {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 .imagenPromoJulio {
   max-width: 100vw;
-  animation-duration: 3s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite; }
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
 
 .tituloUbicacion {
   background: radial-gradient(#000, #191659);
@@ -157,43 +201,53 @@ footer {
   text-align: center;
   margin: 10px 0 10px 0;
   padding-top: 10px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+}
 
 .mapa {
-  height: 20vw; }
+  height: 20vw;
+}
 
 /*  Encabezado de Secciones */
 .tituloSeccion {
   margin-top: 30px;
   margin-bottom: 30px;
-  text-align: center; }
+  text-align: center;
+}
 
 /*  ------------------------ MAIN Página Sobre Nosotros ------------------------ */
 .valores {
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 .imagenValores {
-  width: 100%; }
+  width: 100%;
+}
 
 .objetivos {
-  margin: 30px 0 100px 0; }
+  margin: 30px 0 100px 0;
+}
 
 /*  ------------------------ MAIN Página Cascos ------------------------ */
 .form-select:focus {
   border-color: #2EA67A;
-  box-shadow: 0 0 0 0.3rem #28A74646; }
+  box-shadow: 0 0 0 0.3rem rgba(40, 167, 70, 0.2745098039);
+}
 
 .productoCasco {
   margin: 15px;
   border: 3px outset #D92525;
-  width: 250px; }
+  width: 250px;
+}
 
 .filtros {
-  margin: 20px 0 10px 30px; }
+  margin: 20px 0 10px 30px;
+}
 
 .talles {
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 .verMasProductos {
   margin-top: 10px;
@@ -202,25 +256,34 @@ footer {
   color: white;
   border: 3px outset #191659;
   width: 200px;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+}
 
 .filtrosMobile {
-  display: none; }
+  display: none;
+}
 
 /*  ------------------------ Estilos para Vista Mobile ------------------------ */
 @media only screen and (max-width: 576px) {
   .botas:hover {
     transform: scale(0.8, 0.8);
-    margin-left: 0; }
+    margin-left: 0;
+  }
   .cascos:hover {
-    transform: scale(0.8, 0.8); }
+    transform: scale(0.8, 0.8);
+  }
   .guantes:hover {
     transform: scale(0.8, 0.8);
-    margin-left: 0; }
+    margin-left: 0;
+  }
   .mapa {
-    height: 60vw; }
+    height: 60vw;
+  }
   /* Pagina Cascos -- Ocultar Columna izquierda de Filtros */
   #filtros {
-    display: none; }
+    display: none;
+  }
   .filtrosMobile {
-    display: block; } }
+    display: block;
+  }
+}/*# sourceMappingURL=styles.css.map */

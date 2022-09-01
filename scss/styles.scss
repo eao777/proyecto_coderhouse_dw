@@ -39,7 +39,7 @@
     margin-top: 10px;
   }
 
-  .marcas img {
+  .marcas img{
     border-radius: 5px;
   }
 
@@ -103,12 +103,12 @@
     border: 3px outset $colorAlternativo2;
     width: 200px;
     font-size: 1.3rem;
-  }
 
-  .iniciarSesion:hover {
-    background-color: $colorAlternativo2;
+    &:hover{
+      background-color: $colorAlternativo2;
     border: 3px outset $colorAlternativo2;
     transform: scale(0.8, 0.8);
+    }
   }
 
   #nuevoRegistro {
