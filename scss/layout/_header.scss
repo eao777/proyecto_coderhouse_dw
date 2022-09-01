@@ -1,18 +1,19 @@
+@import '../utilities/variables';
+
 /* Estilos del Menú principal */
 .menu {
-    color: #000;
+    color: $colorPrincipal;
     font-size: 2rem;
   }
 
 /* Borde de color a menu hamburguesa */
 .navbar {
-    --bs-navbar-toggler-border-color: rgb(255 0 0);
-  }
+    --bs-navbar-toggler-border-color: red;  }
 
   /* Estilos para botón Buscar */
   .btnBuscar {
-    background-color: #2EA67A;
+    background-color: $colorAlternativo2;
     color: white;
-    border: 3px outset #2EA67A;
+    border: 3px outset $colorAlternativo2;
     font-size: 1rem;
   }

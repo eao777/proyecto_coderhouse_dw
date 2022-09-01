@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Paleta de Colores */
 /* Estilos del Menú principal */
 .menu {
   color: #000;
@@ -6,7 +7,7 @@
 
 /* Borde de color a menu hamburguesa */
 .navbar {
-  --bs-navbar-toggler-border-color: rgb(255 0 0); }
+  --bs-navbar-toggler-border-color: red; }
 
 /* Estilos para botón Buscar */
 .btnBuscar {
@@ -35,6 +36,7 @@ footer {
   padding: 10px;
   background: linear-gradient(#191659, black); }
 
+/* Paleta de Colores */
 /* Reset */
 * {
   margin: 0px;
@@ -71,7 +73,7 @@ footer {
   text-align: center;
   color: #fff;
   font-weight: 700;
-  background: linear-gradient(red, black);
+  background: linear-gradient(#D92525, #000);
   padding: 20px; }
 
 .tituloProductosMasVendidos {
@@ -80,17 +82,17 @@ footer {
 
 .productoMasVendido {
   margin: 15px;
-  border: 3px outset #b02c2a;
+  border: 3px outset #730202;
   width: 450px; }
 
 .nombreProducto {
-  color: black;
+  color: #000;
   font-weight: bold;
   text-align: center;
   font-size: 1.8rem; }
 
 .precioProducto {
-  color: #6b1a19;
+  color: #730202;
   margin: 5px;
   text-align: center;
   font-size: 1.2rem; }
@@ -129,8 +131,8 @@ footer {
   margin-top: 40px; }
 
 .form-control:focus {
-  border-color: #28a745;
-  box-shadow: 0 0 0 0.3rem #28a74646; }
+  border-color: #2EA67A;
+  box-shadow: 0 0 0 0.3rem #28A74646; }
 
 .btnComprar:hover {
   transform: scale(0.8, 0.8); }
@@ -149,7 +151,7 @@ footer {
   animation-iteration-count: infinite; }
 
 .tituloUbicacion {
-  background: radial-gradient(black, #191659);
+  background: radial-gradient(#000, #191659);
   color: #fff;
   text-align: center;
   margin: 10px 0 10px 0;
@@ -177,12 +179,12 @@ footer {
 
 /*  ------------------------ MAIN Página Cascos ------------------------ */
 .form-select:focus {
-  border-color: #28a745;
-  box-shadow: 0 0 0 0.3rem #28a74646; }
+  border-color: #2EA67A;
+  box-shadow: 0 0 0 0.3rem #28A74646; }
 
 .productoCasco {
   margin: 15px;
-  border: 3px outset #b02c2a;
+  border: 3px outset #D92525;
   width: 250px; }
 
 .filtros {

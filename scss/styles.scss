@@ -1,5 +1,7 @@
-@import 'layout/header';
-@import 'layout/footer';
+@import './layout/header';
+@import './layout/footer';
+@import './utilities/variables';
+
 /* Reset */
 * {
     margin: 0px;
@@ -45,7 +47,7 @@
     text-align: center;
     color: #fff;
     font-weight: 700;
-    background: linear-gradient(red, black);
+    background: linear-gradient($colorAlternativo1, $colorPrincipal);
     padding: 20px;
   }
 
@@ -56,19 +58,19 @@
 
   .productoMasVendido {
     margin: 15px;
-    border: 3px outset #b02c2a;
+    border: 3px outset $colorAlternativo1A;
     width: 450px;
   }
 
   .nombreProducto {
-    color: black;
+    color: $colorPrincipal;
     font-weight: bold;
     text-align: center;
     font-size: 1.8rem;
   }
 
   .precioProducto {
-    color: #6b1a19;
+    color: $colorAlternativo1A;
     margin: 5px;
     text-align: center;
     font-size: 1.2rem;
@@ -86,9 +88,9 @@
   #enviarMensaje {
     margin: 10px;
     padding-bottom: 5px;
-    background-color: #2EA67A;
+    background-color: $colorAlternativo2;
     color: white;
-    border: 3px outset #2EA67A;
+    border: 3px outset $colorAlternativo2;
     width: 100px;
     font-size: 1.3rem;
   }
@@ -96,16 +98,16 @@
   .iniciarSesion {
     margin: 10px;
     padding-bottom: 5px;
-    background-color: #2EA67A;
+    background-color: $colorAlternativo2;
     color: white;
-    border: 3px outset #2EA67A;
+    border: 3px outset $colorAlternativo2;
     width: 200px;
     font-size: 1.3rem;
   }
 
   .iniciarSesion:hover {
-    background-color: #2EA67A;
-    border: 3px outset #2EA67A;
+    background-color: $colorAlternativo2;
+    border: 3px outset $colorAlternativo2;
     transform: scale(0.8, 0.8);
   }
 
@@ -114,8 +116,8 @@
   }
 
   .form-control:focus {
-    border-color: #28a745;
-    box-shadow: 0 0 0 0.3rem #28a74646;
+    border-color: $colorAlternativo2;
+    box-shadow: 0 0 0 0.3rem $colorAlternativo2A;
   }
 
   .btnComprar:hover {
@@ -141,7 +143,7 @@
   }
 
   .tituloUbicacion {
-    background: radial-gradient(black, #191659);
+    background: radial-gradient($colorPrincipal, $colorAlternativo3);
     color: #fff;
     text-align: center;
     margin: 10px 0 10px 0;
@@ -176,13 +178,13 @@
   /*  ------------------------ MAIN Página Cascos ------------------------ */
 
   .form-select:focus {
-    border-color: #28a745;
-    box-shadow: 0 0 0 0.3rem #28a74646;
+    border-color: $colorAlternativo2;
+    box-shadow: 0 0 0 0.3rem $colorAlternativo2A;
   }
 
   .productoCasco {
     margin: 15px;
-    border: 3px outset #b02c2a;
+    border: 3px outset $colorAlternativo1;
     width: 250px;
   }
 
@@ -198,9 +200,9 @@
   .verMasProductos {
     margin-top: 10px;
     padding-bottom: 5px;
-    background-color: #191659;
+    background-color: $colorAlternativo3;
     color: white;
-    border: 3px outset #191659;
+    border: 3px outset $colorAlternativo3;
     width: 200px;
     font-size: 1.3rem;
   }
