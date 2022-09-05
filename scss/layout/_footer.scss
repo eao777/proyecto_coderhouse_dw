@@ -1,3 +1,22 @@
+$redesSociales:(
+  facebook: #3b5998,
+  instagram: #833AB4,
+  twitter: #1DA1F2
+);
+
+$estilos:(
+  margenEstandar: 5px
+);
+
+/* Bucle para definir estilos del mapa redesSociales */
+@each $red, $color in $redesSociales{
+  .btn--#{$red}{
+    color: $color;
+    font-size: 2rem;
+    margin: map-get($estilos, margenEstandar);
+  }
+}
+
 footer {
     margin-top: 20px;
   }
