@@ -122,8 +122,7 @@ footer {
 .card-img-top {
   margin-top: 20px; }
 
-.btnComprar,
-#enviarMensaje {
+.boton, .boton--iniciarSesion {
   margin: 10px;
   padding-bottom: 5px;
   background-color: #2EA67A;
@@ -132,15 +131,9 @@ footer {
   width: 100px;
   font-size: 1.3rem; }
 
-.iniciarSesion {
-  margin: 10px;
-  padding-bottom: 5px;
-  background-color: #2EA67A;
-  color: white;
-  border: 3px outset #2EA67A;
-  width: 200px;
-  font-size: 1.3rem; }
-  .iniciarSesion:hover {
+.boton--iniciarSesion {
+  width: 200px; }
+  .boton--iniciarSesion:hover {
     background-color: #2EA67A;
     border: 3px outset #2EA67A;
     transform: scale(0.8, 0.8); }
@@ -152,7 +145,7 @@ footer {
   border-color: #2EA67A;
   box-shadow: 0 0 0 0.3rem #28A74646; }
 
-.btnComprar:hover {
+.boton:hover, .boton--iniciarSesion:hover {
   transform: scale(0.8, 0.8); }
 
 /* Animacion para promociones */

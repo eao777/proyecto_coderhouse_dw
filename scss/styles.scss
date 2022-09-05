@@ -85,8 +85,7 @@
     margin-top: 20px;
   }
 
-  .btnComprar,
-  #enviarMensaje {
+  .boton {
     margin: 10px;
     padding-bottom: 5px;
     background-color: $colorAlternativo2;
@@ -96,19 +95,14 @@
     font-size: 1.3rem;
   }
 
-  .iniciarSesion {
-    margin: 10px;
-    padding-bottom: 5px;
-    background-color: $colorAlternativo2;
-    color: white;
-    border: 3px outset $colorAlternativo2;
+  .boton--iniciarSesion {
+    @extend .boton;
     width: 200px;
-    font-size: 1.3rem;
 
     &:hover{
       background-color: $colorAlternativo2;
-    border: 3px outset $colorAlternativo2;
-    transform: scale(0.8, 0.8);
+      border: 3px outset $colorAlternativo2;
+      transform: scale(0.8, 0.8);
     }
   }
 
@@ -121,7 +115,7 @@
     box-shadow: 0 0 0 0.3rem $colorAlternativo2A;
   }
 
-  .btnComprar:hover {
+  .boton:hover {
     transform: scale(0.8, 0.8);
   }
 
