@@ -44,12 +44,20 @@
     border-radius: 5px;
   }
 
-  .tituloPromo {
+@mixin fondoPromo($colorFondo){
     text-align: center;
     color: #fff;
     font-weight: 700;
-    background: linear-gradient($colorAlternativo1, $colorPrincipal);
+    background: linear-gradient($colorPrincipal, $colorFondo);
     padding: 20px;
+}
+
+  .tituloPromoPrincipal {
+    @include fondoPromo($colorAlternativo1)
+  }
+
+  .tituloPromoSecundario {
+    @include fondoPromo($colorAlternativo2)
   }
 
   .tituloProductosMasVendidos {

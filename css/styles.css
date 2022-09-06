@@ -88,11 +88,18 @@ footer {
 .marcas img {
   border-radius: 5px; }
 
-.tituloPromo {
+.tituloPromoPrincipal {
   text-align: center;
   color: #fff;
   font-weight: 700;
-  background: linear-gradient(#D92525, #000);
+  background: linear-gradient(#000, #D92525);
+  padding: 20px; }
+
+.tituloPromoSecundario {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(#000, #2EA67A);
   padding: 20px; }
 
 .tituloProductosMasVendidos {
