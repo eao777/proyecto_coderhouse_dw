@@ -213,16 +213,13 @@ footer {
   margin-bottom: 30px; }
 
 .verMasProductos {
-  margin-top: 10px;
-  padding-bottom: 5px;
-  background-color: #191659;
-  color: white;
-  border: 3px outset #191659;
   width: 200px;
   font-size: 1.3rem; }
 
-.filtrosMobile {
-  display: none; }
+#filtrosAcordeon {
+  display: none;
+  width: 290px;
+  color: #000; }
 
 /*  ------------------------ Estilos para Vista Mobile ------------------------ */
 @media only screen and (max-width: 576px) {
@@ -239,5 +236,5 @@ footer {
   /* Pagina Cascos -- Ocultar Columna izquierda de Filtros */
   #filtros {
     display: none; }
-  .filtrosMobile {
+  #filtrosAcordeon {
     display: block; } }

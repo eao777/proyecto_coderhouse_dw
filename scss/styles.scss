@@ -201,17 +201,14 @@
   }
 
   .verMasProductos {
-    margin-top: 10px;
-    padding-bottom: 5px;
-    background-color: $colorAlternativo3;
-    color: white;
-    border: 3px outset $colorAlternativo3;
     width: 200px;
     font-size: 1.3rem;
   }
 
-  .filtrosMobile{
+  #filtrosAcordeon{
     display: none;
+    width: 290px;
+    color: $colorPrincipal;
   }
 
   /*  ------------------------ Estilos para Vista Mobile ------------------------ */
@@ -240,7 +237,7 @@
       display: none;
     }
 
-    .filtrosMobile{
+    #filtrosAcordeon{
       display: block;
     }
   }
