@@ -63,6 +63,10 @@ footer {
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif; }
 
+.row {
+  margin: 0;
+  padding: 0; }
+
 /*  ------------------------ MAIN Página INDEX ------------------------ */
 .servicios {
   padding: 12px; }
